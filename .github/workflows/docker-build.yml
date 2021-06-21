@@ -37,9 +37,9 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          platforms: linux/amd64/linux/arm64
+          platforms: linux/amd64,linux/arm64
           push: true
-          tags: charity1475/python-helloworld:$COMMIT_TITLE
+          tags: charity1475/python-helloworld:latest
 
       -
         name: Image digest

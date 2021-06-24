@@ -39,7 +39,7 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: charity1475/python-helloworld:latest
+          tags: charity1475/python-helloworld:v1.0.0
 
       -
         name: Image digest

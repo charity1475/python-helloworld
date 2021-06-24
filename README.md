@@ -5,5 +5,6 @@
 The Aim of this exercise is to build a deployment pipeline from Github to Dockerhub by automating the process using Github workflows.
 Finally deploying the image in Kubernetes cluster and exposing services.
 
-![alt text](https://github.com/charity1475/python-helloworld/master/argocd.png?raw=true)
+![argocd](https://user-images.githubusercontent.com/58939045/123279199-4e03d880-d510-11eb-86ee-e68e01a5b5e4.png)
+
 Adding argocd manifest

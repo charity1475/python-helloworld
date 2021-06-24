@@ -30,6 +30,14 @@ def metrics():
     )
     app.logger.info("Metrics check request successful")
     return response
+@app.route("/describe")
+def profile():
+    app.logger.info("Ifo page accessed")
+    return "Hello Hey, I'm a Software Engineer specializing in E2E systems development.\
+     I enjoy working with spring boot and beautiful backend experiences. \
+     I'm passionately curious. \
+     Contact me at charity@charitymbisi.me \
+     url: https://charitymbisi.me"
 
 if  __name__ == "__main__":
 
